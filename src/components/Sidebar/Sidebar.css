@@ -1,0 +1,42 @@
+.top{
+    padding: 0 1rem;
+        width: 200px;
+     transition: all ease 2s;
+       
+}
+.bottom{
+    padding: 0 1rem;
+    width: 200px; 
+    transition: all ease .5s;
+ 
+ 
+    
+}
+.smalltop{
+    width: 5%;
+}
+.smalltop p{
+    display: none;
+}
+.smalltop h2{
+    display: none;
+}
+.bottom h2{
+    margin-top: 1rem;
+}
+.sidelink{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem 0;
+}
+.sidelink img{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.active img{
+    padding-bottom: 2px;
+    border-bottom: 3px solid red;
+}

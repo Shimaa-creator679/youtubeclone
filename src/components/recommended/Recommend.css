@@ -1,0 +1,33 @@
+.recommendcontainer{
+   
+   flex-basis: 30%;
+
+   
+}
+.recommend{
+    display: flex;
+   
+    justify-content: space-between;
+    margin-bottom: 20px;
+    
+}
+.recommend img{
+    flex-basis: 49%;
+    width: 50%;
+      
+       
+    
+}
+.recommend .videoinfo{
+    flex-basis: 49%;
+}
+.recommend .videoinfo h2{
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+@media(max-width:1440px){
+    .recommendcontainer{
+        margin-right: 80px;
+    }
+
+}
